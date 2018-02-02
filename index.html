@@ -1,0 +1,54 @@
+<<DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/styles.css" />
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <div class="box">
+        <img src="./assets/imgs/profile.jpg" alt="" class="box-img">
+        <h1>Noah Herron</h1>
+        <h3>Full Stack Web Developer</h3>
+        <p>Dedicated and hardworking student who currently is seeking a full-time web development position. Knowledgeable in HTML5,
+        CSS3, JavaScript, Bootstrap, AngularJS, Firebase, Ionic Mobile Framework, Node JS, MySQL, MongoDB, Express & Handlebars JS.
+        Additionally, experienced in customer satisfaction and restaurant management.</p>
+    </div> -->
+    <div class="nav">
+        <a class="a active" href="file:///C:/Users/Noah%20Herron/KU_Work/Homework/ProfessionalPortfolio/Profile/index.html">HOME</a>
+        <a class="b" href="#">PORTFOLIO</a>
+        <a class="c" href="#">CONTACT ME</a>
+    </div>
+    <div class="content">
+        <div class="box">
+                <img src="./assets/imgs/profile.jpg" alt="" class="box-img">
+                <h1>Noah Herron</h1>
+                <h3>Full Stack Web Developer</h3>
+                <p>Dedicated and hardworking student who currently is seeking a full-time web development position. Knowledgeable in HTML5,
+                CSS3, JavaScript, Bootstrap, AngularJS, Firebase, Ionic Mobile Framework, Node JS, MySQL, MongoDB, Express & Handlebars JS.
+                Additionally, experienced in customer satisfaction and restaurant management.</p>
+            </div>
+            <div class="portfolio">
+                
+            </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('a').on("click", function () {
+            var selected = $(this);
+            $('a').removeClass('active');
+            $(selected).addClass('active');
+        });
+
+        var $a = $('.a'),
+        $b = $('.b'),
+        $c = $('.c'),
+        $home = $('.home'),
+        $portfolio = $('.portfolio');
+    });
+</script>
+</html>

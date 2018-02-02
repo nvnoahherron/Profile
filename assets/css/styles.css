@@ -1,0 +1,64 @@
+body{
+margin: 0;
+padding: 0;
+background: url(../imgs/paper.jpeg) no-repeat;
+background-size: cover;
+}
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0);
+    padding: 40px;
+    text-align: center;
+    color: black;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.nav{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 90px;
+    margin: 5px 0;
+    float: left;
+    display: inline-block; 
+    background-color: black;
+    color: white;
+    line-height: 90px;
+    text-align: center;
+}
+a.active, .nav a:hover{
+    background-color: white;
+    color:black;
+    width: 100%;
+}
+.a{
+    width: 95%;
+}
+.b{
+    width: 85%;
+}
+.c{
+    width: 75%;
+}
+.content{
+    position: absolute;
+    width: 80%;
+    min-height: 500px;
+    height: auto;
+    right: 0;
+    top: 15%;
+}
