@@ -62,3 +62,13 @@ a.active, .nav a:hover{
     right: 0;
     top: 15%;
 }
+.portfolio{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: black;
+    font-family: Verdana;
+    padding: 0 60px;
+    display: none;
+    width: 100%;
+}
