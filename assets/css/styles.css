@@ -1,23 +1,24 @@
 body{
 margin: 0;
 padding: 0;
-background: url(../imgs/paper.jpeg) no-repeat;
+background: url(../imgs/background.jpg) no-repeat;
 background-size: cover;
+font-family: "Permanent Marker";
 }
 .box{
-    width: 450px;
+    width: 1000px;
+    font-size: 28px;
     background: rgba(0, 0, 0, 0);
     padding: 40px;
     text-align: center;
     color: black;
     margin: auto;
-    margin-top: 5%;
-    font-family: 'Times New Roman', Times, serif
+    font-family: "Permanent Marker";
 }
 .box-img{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    border-radius: 25%;
+    width: 300px;
+    height: 300px;
 }
 .nav{
     width: 350px;
@@ -29,7 +30,7 @@ background-size: cover;
 .nav a{
     text-decoration: none;
     font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Permanent Marker";
     font-weight: bold;
     height: 90px;
     margin: 5px 0;
@@ -71,4 +72,27 @@ a.active, .nav a:hover{
     padding: 0 60px;
     display: none;
     width: 100%;
+}
+.card{
+    text-align: center;
+    background-color: white;
+    border: solid 1px black;
+    font-family: "Permanent Marker";
+    border-radius: 5%;
+}
+.card-title{
+    font-weight: bold;
+}
+.text-center{
+    font-weight: bold;
+    font-family: "Permanent Marker";
+    font-size: 50px;
+}
+.contact-imgs{
+    border-radius: 25%;
+    width: 150px;
+    height: 150px;
+}
+.contactMe{
+    display: none;
 }
